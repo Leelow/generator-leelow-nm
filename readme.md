@@ -19,7 +19,7 @@ $ npm install --global yo generator-leelow-nm
 With [yo](https://github.com/yeoman/yo):
 
 ```
-$ yo nm
+$ yo leelow-nm
 ```
 
 There are multiple command-line options available:
