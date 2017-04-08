@@ -3,7 +3,7 @@
 [![NPM downloads][downloads-image]][downloads-url]<% if (travis) { %>
 [![Travis build status][travis-image]][travis-url]<% } if (appveyor) { %>
 [![Appveyor build status][appveyor-image]][appveyor-url]<% } if (coveralls) { %>
-[![Coveralls coverage status][coveralls-image]][coveralss-url]<% } %>
+[![Coveralls coverage status][coveralls-image]][coveralls-url]<% } %>
 [![JavaScript Style Guide][javascript-standard-image]][javascript-standard-url]
 
 > <%= moduleDescription %>
@@ -55,6 +55,6 @@ MIT © [<%= name %>](<%= website %>)
 [travis-image]: https://travis-ci.org/<%= githubUsername %>/<%= repoName %>.svg?branch=master
 [travis-url]: https://travis-ci.org/<%= githubUsername %>/<%= repoName %><% } if (coveralls) { %>
 [coveralls-image]: https://coveralls.io/repos/github/<%= githubUsername %>/<%= repoName %>/badge.svg?branch=master
-[coveralls-url]: https://coveralls.io/github/<%= githubUsername %>/<%= repoName %>?branch=master)<% } %>
+[coveralls-url]: https://coveralls.io/github/<%= githubUsername %>/<%= repoName %>?branch=master<% } %>
 [javascript-standard-image]: https://img.shields.io/badge/code%20style-standard-brightgreen.svg
 [javascript-standard-url]: http://standardjs.com/

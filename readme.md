@@ -3,7 +3,7 @@
 [![NPM downloads][downloads-image]][downloads-url]
 [![Travis build status][travis-image]][travis-url]
 [![Appveyor build status][appveyor-image]][appveyor-url]
-[![Coveralls coverage status][coveralls-image]][coveralss-url]
+[![Coveralls coverage status][coveralls-image]][coveralls-url]
 [![JavaScript Style Guide][javascript-standard-image]][javascript-standard-url]
 
 > Scaffold out a node module
