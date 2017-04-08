@@ -1,0 +1,4 @@
+node_modules
+npm-debug.log<% if (yarn) { %>
+yarn-error.log<% } if (coverage) { %>
+coverage<% } %>
