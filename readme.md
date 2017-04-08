@@ -61,6 +61,6 @@ MIT © [Leelow](https://github.com/Leelow)
 [travis-image]: https://travis-ci.org/Leelow/generator-leelow-nm.svg?branch=master
 [travis-url]: https://travis-ci.org/Leelow/generator-leelow-nm
 [coveralls-image]: https://coveralls.io/repos/github/Leelow/generator-leelow-nm/badge.svg?branch=master
-[coveralls-url]: https://coveralls.io/github/Leelow/generator-leelow-nm?branch=master)
+[coveralls-url]: https://coveralls.io/github/Leelow/generator-leelow-nm?branch=master
 [javascript-standard-image]: https://img.shields.io/badge/code%20style-standard-brightgreen.svg
 [javascript-standard-url]: http://standardjs.com/
