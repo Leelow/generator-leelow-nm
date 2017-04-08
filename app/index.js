@@ -1,3 +1,4 @@
+'use strict'
 const superb = require('superb')
 const normalizeUrl = require('normalize-url')
 const humanizeUrl = require('humanize-url')
