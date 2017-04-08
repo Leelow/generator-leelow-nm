@@ -129,7 +129,8 @@ module.exports = class extends Generator {
       const travis = or('travis')
       const appveyor = or('appveyor')
       const coveralls = or('coveralls')
-      const coverage = coveralls || or('coverage', 'istanbul')
+      const coverage = coveralls || or('coverage')
+      const yarn = or('yarn')
 
       const repoName = utils.repoName(props.moduleName)
 
@@ -146,7 +147,8 @@ module.exports = class extends Generator {
         travis: travis,
         appveyor: appveyor,
         coverage: coverage,
-        coveralls: coveralls
+        coveralls: coveralls,
+        yarn: yarn
       }
 
       function mv (from, to) {

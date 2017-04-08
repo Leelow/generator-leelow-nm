@@ -10,7 +10,8 @@ describe('generator', function () {
       .withPrompts({
         moduleName: 'test',
         githubUsername: 'test',
-        website: 'test.com'
+        website: 'test.com',
+        yarn: true
       })
       .then(function () {
         assert.file([
@@ -29,6 +30,8 @@ describe('generator', function () {
         assert.jsonFileContent('package.json', {name: 'test'})
         assert.jsonFileContent('package.json', {author: {url: 'test.com'}})
         assert.fileContent('readme.md', '(test.com)')
+        assert.fileContent('.gitignore', 'yarn-error.log')
+        assert.fileContent('.npmignore', 'yarn-error.log')
 
         done()
       })
@@ -43,7 +46,8 @@ describe('generator', function () {
         website: 'test.com',
         ci: true,
         travis: true,
-        appveyor: false
+        appveyor: false,
+        yarn: true
       })
       .then(function () {
         assert.file([
@@ -79,7 +83,8 @@ describe('generator', function () {
         travis: true,
         appveyor: false,
         coverage: true,
-        coveralls: true
+        coveralls: true,
+        yarn: true
       })
       .then(function () {
         assert.file([
@@ -104,11 +109,11 @@ describe('generator', function () {
         assert.fileContent('.travis.yml', '\'cat coverage/lcov.info | ./node_modules/.bin/coveralls\'')
 
         assert.fileContent('readme.md', '[![Travis build status][travis-image]][travis-url]')
-        assert.fileContent('readme.md', '[![Coveralls coverage status][coveralls-image]][coveralss-url]')
+        assert.fileContent('readme.md', '[![Coveralls coverage status][coveralls-image]][coveralls-url]')
         assert.fileContent('readme.md', '[travis-image]: https://travis-ci.org/test/test.svg?branch=master')
         assert.fileContent('readme.md', '[travis-url]: https://travis-ci.org/test/test')
         assert.fileContent('readme.md', '[coveralls-image]: https://coveralls.io/repos/github/test/test/badge.svg?branch=master')
-        assert.fileContent('readme.md', '[coveralls-url]: https://coveralls.io/github/test/test?branch=master)')
+        assert.fileContent('readme.md', '[coveralls-url]: https://coveralls.io/github/test/test?branch=master')
 
         done()
       })
@@ -123,7 +128,8 @@ describe('generator', function () {
         website: 'test.com',
         ci: true,
         travis: false,
-        appveyor: true
+        appveyor: true,
+        yarn: true
       })
       .then(function () {
         assert.file([
