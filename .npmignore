@@ -11,3 +11,4 @@ tmp
 .travis.yml
 .appveyor.yml
 test.js
+!app/templates/test.js
