@@ -3,12 +3,9 @@ npm-debug.log<% if (yarn) { %>
 yarn-error.log<% } if (coverage) { %>
 coverage<% } %>
 
-.idea
-glob-invert.iml
-
 .appveyor.yml
 .travis.yml
 .gitignore
-test2.js
+test.js
 
 
