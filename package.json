@@ -1,6 +1,6 @@
 {
   "name": "generator-leelow-nm",
-  "version": "0.9.5",
+  "version": "0.9.6",
   "description": "Scaffold out a node module",
   "license": "MIT",
   "repository": "https://github.com/Leelow/generator-leelow-nm",

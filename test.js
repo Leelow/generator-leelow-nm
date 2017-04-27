@@ -107,6 +107,8 @@ describe('generator', function () {
         })
 
         assert.fileContent('.travis.yml', '\'cat coverage/lcov.info | ./node_modules/.bin/coveralls\'')
+        assert.fileContent('.travis.yml', 'after_success')
+        assert.fileContent('.travis.yml', '- yarn run coverage')
 
         assert.fileContent('readme.md', '[![Travis build status][travis-image]][travis-url]')
         assert.fileContent('readme.md', '[![Coveralls coverage status][coveralls-image]][coveralls-url]')
