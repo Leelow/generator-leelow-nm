@@ -1,6 +1,6 @@
 {
   "name": "generator-leelow-nm",
-  "version": "0.9.4",
+  "version": "0.9.5",
   "description": "Scaffold out a node module",
   "license": "MIT",
   "repository": "https://github.com/Leelow/generator-leelow-nm",
@@ -25,12 +25,12 @@
     "yeoman-generator": "^1.0.1"
   },
   "devDependencies": {
+    "coveralls": "^2.13.0",
     "istanbul": "^0.4.5",
-    "mocha": "^3.2.0",
+    "mocha": "^3.3.0",
     "standard": "^10.0.2",
     "yeoman-assert": "^3.0.0",
-    "yeoman-test": "^1.6.0",
-    "coveralls": "^2.13.0"
+    "yeoman-test": "^1.6.0"
   },
   "keywords": [
     "yeoman-generator",
