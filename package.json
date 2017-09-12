@@ -22,7 +22,7 @@
     "scoped-regex": "^1.0.0",
     "superb": "^1.1.3",
     "underscore.string": "^3.0.3",
-    "yeoman-generator": "^1.0.1"
+    "yeoman-generator": "^2.0.0"
   },
   "devDependencies": {
     "coveralls": "^2.13.0",
