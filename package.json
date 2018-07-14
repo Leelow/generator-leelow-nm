@@ -20,7 +20,7 @@
     "humanize-url": "^1.0.1",
     "normalize-url": "^1.2.0",
     "scoped-regex": "^1.0.0",
-    "superb": "^2.0.0",
+    "superb": "^3.0.0",
     "underscore.string": "^3.0.3",
     "yeoman-generator": "^2.0.0"
   },
