@@ -17,7 +17,7 @@
     "coverage": "standard && \"./node_modules/.bin/istanbul\" cover -x test.js ./node_modules/mocha/bin/_mocha -- --timeout 5000 test.js"
   },
   "dependencies": {
-    "humanize-url": "^1.0.1",
+    "humanize-url": "^2.0.0",
     "normalize-url": "^1.2.0",
     "scoped-regex": "^1.0.0",
     "superb": "^2.0.0",
